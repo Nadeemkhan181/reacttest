@@ -23,10 +23,7 @@ const Pagination = ({ dataPerPage, totaldata, paginate, User }) => {
 
               ))}
              </ul>
-              <ul className="pagination visible-xs pull-right">
-                <li><a href="#">«</a></li>
-                <li><a href="#">»</a></li>
-              </ul>
+           
             </div>
           </div>
         </div>
