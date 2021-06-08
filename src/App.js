@@ -76,7 +76,7 @@ const [Viewerperpage, setViewerperpage] = useState(20)
             </tbody>
           </table>
         </div>
-        <Pagination User={Data} dataPerPage={Viewerperpage} totaldata={Data.length} paginate={paginate} />
+        <Pagination Data={Data} dataPerPage={Viewerperpage} totaldata={Data.length} paginate={paginate} />
       </div></div></div></div>
 
 
